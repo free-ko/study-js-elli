@@ -4,7 +4,7 @@
 
 1. JS history and present
 2. Console print and difference between script async and defer
-3. Data types, let, var, hositing
+3. Data types, let, var, hosting
 4. Operator, if, for loop
 5. Arrow Function
 6. Difference between class and object
