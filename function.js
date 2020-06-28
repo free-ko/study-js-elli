@@ -164,3 +164,20 @@ const subtract = (a, b) => a - b;
 const divide = (a, b) => a / b;
 const multiply = (a, b) => a * b;
 const remainder = (a, b) => a % b;
+
+function calculate2(command, a, b) {
+    switch (command) {
+        case 'add':
+            return a + b;
+        case 'subtract':
+            return a - b;
+        case 'divide':
+            return a / b;
+        case 'multiply':
+            return a * b;
+        case 'remainder':
+            return a % b;
+        default:
+            throw Error('unkown command');
+    }
+}
