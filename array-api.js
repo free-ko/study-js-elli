@@ -78,7 +78,7 @@ console.clear();
 // result should be: '45, 80, 90, 66, 88'
 {
     const result = students
-        .map((student) => student.score)  // 순차적으로 적용됨 밑으로 갈 수록
+        .map((student) => student.score) // 순차적으로 적용됨 밑으로 갈 수록
         .join();
     console.log(result);
 }

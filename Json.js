@@ -15,6 +15,22 @@ console.log(json);
 json = JSON.stringify(['apple', 'banana']);
 console.log(json);
 
+json = JSON.stringify(['birds', 'sky']);
+console.log(json)
+
+const eggle = {
+    name: 'freeko',
+    color: 'black',
+    size: null,
+    birthDate: new Date(),
+    fly: () => {
+        console.log(`${this.name} can more fly`);
+    },
+};
+
+json = JSON.stringify(eggle);
+console.log(json);
+
 const rabbit = {
     name: 'tori',
     color: 'white',
