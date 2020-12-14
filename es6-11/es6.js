@@ -50,6 +50,8 @@
     }
   
     // ✨ Object Destructuring
+    // const student 객체 안에 name 이라는 key값의 value 값
+    // 즉 student 객체가 중복되니 하나로 묶고 각 각의 key 값을 설정 할 수 있습니다.
     {
       const { name, level } = student;
       console.log(name, level);
@@ -69,6 +71,7 @@
     }
   
     // ✨ Array Destructuring
+    // animal 배열의 첫 번째에 있는 value 값을 first로 할당 합니다.
     {
       const [first, second] = animals;
       console.log(first, second);
@@ -112,6 +115,7 @@
     // object merge
     const dog1 = { dog: '🐕' };
     const dog2 = { dog: '🐶' };
+    
     // key가 같은 경우 마지막의 값이 최종적으로 덮습니다.
     const dog = { ...dog1, ...dog2 };
     console.log(dog);
