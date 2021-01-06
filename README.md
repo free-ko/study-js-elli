@@ -1,4 +1,4 @@
-# Dream_Coding_JS
+# Study JS with Elli
 
 ## Category
 
