@@ -16,3 +16,4 @@
 12. [JavaScript Promise](https://github.com/free-ko/study-js-elli/blob/master/async/promise.js)
 13. [How to use Promise and meaning](https://github.com/free-ko/study-js-elli/blob/master/async/callback-to-promise.js)
 14. [async & await](https://github.com/free-ko/study-js-elli/blob/master/async/async.js)
+15. [E11](https://github.com/free-ko/study-js-elli/blob/master/es6-11/es11.js)
